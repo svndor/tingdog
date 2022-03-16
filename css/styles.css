@@ -135,6 +135,22 @@ p {
     padding: 3% 2%;
 }
 
+/* CTA Section */
+
+#cta {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 7% 15%; 
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
 @media (max-width: 1028px){
     
     #title {
@@ -146,4 +162,10 @@ p {
         position: static;
         transform: rotate(0);
     }
+}
+
+#footer {
+    background-color: #FFFFFF;
+    padding: 7% 15%;
+    text-align: center;
 }
