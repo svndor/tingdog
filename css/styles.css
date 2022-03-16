@@ -66,10 +66,12 @@ p {
 /* Title Image */
 
 .title-image {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
-    position: ; 
-    right: 30%;
+    position: absolute; 
+    right: 30;
+    /* or position: relative; */
+
 }
 
 /* Features Section */
@@ -77,7 +79,7 @@ p {
 #features {
     padding:  7% 15%; 
     background-color: #FFFFFF;
-    position: relative; 
+    position: relative;  
 }
 
 .feature-box {
@@ -131,4 +133,17 @@ p {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
 }
